@@ -3,27 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static\style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css">
     <title>My Portfolio</title>
-    
 </head>
 <body>
-    
-    <div class="container">
-        
-        <h1>MY PORTFOLIO</h1>
-        <img src="static\manas.jpeg" alt="Description of image" width="220" height="220" ,left="5",right=10>
-        <p>Name: [Manas Kumar pandey]</p>
-        <p>Date of Birth: [10-april-2003]</p>
-        <p>Sex:[Male]</p>
-        <p>Education: Secondary Education: DAV Public School</p>
-        <p>Country: India</p>
-
-    
-        <br>      
-            </p>
-        
-            
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1 class="display-4">MY PORTFOLIO</h1>
+            <img src="static/manas.jpeg" alt="Manas Kumar Pandey" class="rounded-circle img-fluid mt-3" width="220" height="220">
+            <div class="mt-4">
+                <a href="#about" class="btn btn-primary mx-2">About</a>
+                <a href="#skills" class="btn btn-primary mx-2">Skills</a>
+                <a href="#hobbies" class="btn btn-primary mx-2">Hobbies</a>
+            </div>
+        </div>
+        <div id="about" class="mt-4">
+            <h2>About</h2>
+            <p><strong>Name:</strong> Manas Kumar Pandey</p>
+            <p><strong>Date of Birth:</strong> 10-April-2003</p>
+            <p><strong>Sex:</strong> Male</p>
+            <p><strong>Education:</strong></p>
+            <ul>
+                <li>Secondary Education: DAV Public School</li>
+                <li>B.E: VKIT Bangalore, 560074</li>
+            </ul>
+            <p><strong>Country:</strong> India</p>
+        </div>
+        <div id="skills" class="mt-4">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming: Python, JavaScript</li>
+                <li>Web Development: HTML, CSS, Bootstrap</li>
+                <li>Data Analysis: Pandas, NumPy</li>
+            </ul>
+        </div>
+        <div id="hobbies" class="mt-4">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Reading</li>
+                <li>Travelling</li>
+                <li>Photography</li>
+            </ul>
+        </div>
     </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
